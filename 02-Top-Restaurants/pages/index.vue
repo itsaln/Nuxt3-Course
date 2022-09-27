@@ -1,9 +1,8 @@
 <template>
 	<div>
-		<Nav />
 		<div class='container'>
 			<h1>Welcome to Restaurantly</h1>
-			<nuxt-link href='/restaurants'>Go to restaurants</nuxt-link>
+			<NuxtLink href='/restaurants'>Go to restaurants</NuxtLink>
 		</div>
 	</div>
 </template>

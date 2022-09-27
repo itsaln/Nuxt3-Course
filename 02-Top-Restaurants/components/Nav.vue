@@ -12,7 +12,7 @@
 						<a class='nav-link active' aria-current='page' href='/'>Home</a>
 					</li>
 					<li class='nav-item'>
-						<nuxt-link class='nav-link' to='/restaurants'>Restaurants</nuxt-link>
+						<NuxtLink class='nav-link' to='/restaurants'>Restaurants</NuxtLink>
 					</li>
 				</ul>
 			</div>

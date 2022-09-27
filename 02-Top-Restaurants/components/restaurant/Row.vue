@@ -9,10 +9,10 @@
 		:style='index % 2 === 0 ? {backgroundColor: "rgba(128, 128, 128, 0.15)"} : null'
 	>
 		<h4 class='header rank'>{{ rank }}</h4>
-		<nuxt-link
+		<NuxtLink
 			:href='`restaurants/${name}`'
 			class='header link'
-		>{{ name }}</nuxt-link>
+		>{{ name }}</NuxtLink>
 	</div>
 </template>
 
