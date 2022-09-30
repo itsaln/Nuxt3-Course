@@ -3,7 +3,7 @@
 		<slot name='header' />
 		<div>
 			<img
-				src=' https://cdn-icons-png.flaticon.com/512/4989/4989793.png'
+				src='https://cdn-icons-png.flaticon.com/512/4989/4989793.png'
 				alt=''
 			/>
 		</div>
