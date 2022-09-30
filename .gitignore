@@ -17,3 +17,10 @@ dist
 02-Top-Restaurants/.env
 02-Top-Restaurants/.idea
 02-Top-Restaurants/.vscode
+
+03-DarkMode/node_modules
+03-DarkMode/dist
+03-DarkMode/.nuxt
+03-DarkMode/.env
+03-DarkMode/.idea
+03-DarkMode/.vscode
