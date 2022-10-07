@@ -24,3 +24,10 @@ dist
 03-DarkMode/.env
 03-DarkMode/.idea
 03-DarkMode/.vscode
+
+04-weatherApp/node_modules
+04-weatherApp/dist
+04-weatherApp/.nuxt
+04-weatherApp/.env
+04-weatherApp/.idea
+04-weatherApp/.vscode
