@@ -1,6 +1,5 @@
 <template>
-  <div>
-		{{ isDarkMode }}
+  <div :style='isDarkMode ? {backgroundColor: "#000"} : null'>
     <Nav />
 		<Heading />
 		<Cards />

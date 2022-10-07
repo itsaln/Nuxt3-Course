@@ -3,14 +3,11 @@
 		<div class='content-container'>
 			<div class='text-container'>
 				<h4>Based on your reading history</h4>
-				<h2>Designing search for mobile apps</h2>
-				<p class='date'>Aug 26th, 2021, 4pm</p>
-				<p class='snippet'>
+				<h2 :style='isDarkMode ? {color: "#fff"} : null'>Designing search for mobile apps</h2>
+				<p class='date' :style='isDarkMode ? {color: "#fff"} : null'>Aug 26th, 2021, 4pm</p>
+				<p class='snippet' :style='isDarkMode ? {color: "#fff"} : null'>
 					Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aut culpa distinctio nemo quod repudiandae similique
-					sunt ullam. Animi doloremque harum incidunt molestiae pariatur. Amet aut consequatur dolore est, eveniet
-					facilis harum nemo nisi perspiciatis praesentium quidem ratione sit tempora, vitae voluptas. Dolorum error eum
-					facere recusandae velit? Commodi debitis delectus ducimus facere in incidunt ipsum iure laboriosam laborum
-					libero magnam magni nobis, non nostrum omnis qui quisquam soluta tempore vero!
+					sunt ullam. Animi doloremque harum incidunt molestiae pariatur. Amet aut consequatur dolore est.
 				</p>
 			</div>
 			<img
@@ -22,7 +19,7 @@
 </template>
 
 <script setup lang='ts'>
-
+const { isDarkMode } = useDarkMode()
 </script>
 
 <style scoped>

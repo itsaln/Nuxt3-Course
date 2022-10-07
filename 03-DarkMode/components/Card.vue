@@ -1,5 +1,5 @@
 <template>
-	<div class='card'>
+	<div class='card' :style='isDarkMode ? {backgroundColor: "#000", color: "#fff"} : null'>
 		<img :src='card.img' alt=''>
 		<div class='content'>
 			<h3>{{ card.title }}</h3>
@@ -17,6 +17,7 @@ interface CardProps {
 	}
 }
 
+const { isDarkMode } = useDarkMode()
 const props = defineProps<CardProps>()
 </script>
 
