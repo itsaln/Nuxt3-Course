@@ -31,3 +31,10 @@ dist
 04-weatherApp/.env
 04-weatherApp/.idea
 04-weatherApp/.vscode
+
+05-TodoApp/node_modules
+05-TodoApp/dist
+05-TodoApp/.nuxt
+05-TodoApp/.env
+05-TodoApp/.idea
+05-TodoApp/.vscode
