@@ -38,3 +38,10 @@ dist
 05-TodoApp/.env
 05-TodoApp/.idea
 05-TodoApp/.vscode
+
+06-NotesApp/node_modules
+06-NotesApp/dist
+06-NotesApp/.nuxt
+06-NotesApp/.env
+06-NotesApp/.idea
+06-NotesApp/.vscode
