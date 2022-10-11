@@ -1,5 +1,6 @@
 const useAuth = () => {
 	const user = useState('user', () => null)
+	const router = useRouter()
 	const { supabase } = useSupabase()
 
 	supabase.auth.onAuthStateChange((e, session) => {
@@ -12,7 +13,8 @@ const useAuth = () => {
 				password
 			},
 			{
-				data: metadata
+				data: metadata,
+				redirectTo: `${window.location.origin}/profile?source=email`
 			}
 		)
 		if (error) throw error
@@ -31,9 +33,14 @@ const useAuth = () => {
 	const signOut = async () => {
 		const { error } = await supabase.auth.signOut()
 		if (error) throw error
+		await router.push('/')
 	}
 
-	return { user, signUp, signIn, signOut }
+	const isLoggedIn = () => {
+		return !!user.value
+	}
+
+	return { user, signUp, signIn, signOut, isLoggedIn }
 }
 
 export default useAuth
